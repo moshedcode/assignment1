@@ -86,7 +86,88 @@ ul li:before {
 
 
   /* my plans */
+
+  .myplans{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    
+  }
+
   .plans{
     display: flex;
-    align-items: center;
+    text-align: center;
+    
+    
+  }
+
+  .plist{
+   margin-left: 80px;
+   margin-right: 50px;
+   /* align-items: center; */
+   
+   
+  }
+
+  .pname{
+    font-size: 25px;
+    font-weight:bold;
+    
+  }
+
+.pdetail{
+    font-size: 20px;
+    color:#757372;
+}
+
+/* call now */
+.callnow{
+    margin: 150px 150px;
+    background-image: url(/new-year-new-me-main/images/gradient2.png), url(/new-year-new-me-main/images/watch.png); 
+    /* background-position: relative; */
+    mix-blend-mode: overlay;
+    border-radius: 10px;
+    padding: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+/* .watch{
+    /* position: relative; */
+   
+   
+
+   */
+  
+/* .grad{
+    background-position: absolute;
+    top: 0;
+    left: 0;
+    
+  } */
+
+
+
+.details{
+    position: relative;
+  text-align: center;
+  color: white;
+  }
+
+  .callnowbutton{
+        height: 40px;
+        background: #ffffff;
+        border-radius: 5px;
+        color:#FD6E0A;
+        font-weight: 700;
+        font-size: 15px;
+        border: 0;
+        padding: 10px 20px;
+  }
+
+  .imagetext{
+    padding-right: 400px;
   }
