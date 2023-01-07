@@ -171,3 +171,37 @@ ul li:before {
   .imagetext{
     padding-right: 400px;
   }
+
+
+  /* footer */
+  .footer{
+    display: flex;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    background-color: rgb(36, 34, 34);
+    background-size: cover;
+    color: white;
+    background-position: absolute;
+    padding: 100px;
+    padding-left: 200px;
+    gap: 200px;
+  }
+
+  .futuretext{
+    width: 400px;
+  }
+
+
+.socialmedia{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.email{
+    margin-bottom: 20px;
+    padding: 18px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgb(36, 34, 34);
+}
